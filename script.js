@@ -1,5 +1,14 @@
 const extendHex = (shortHex) => {
+	
   // write your code here
+	let hexcode="#"
+	let n=shortHex.length;
+    for (let i = 1; i < n; i++) {
+  //console.log(shortHex[i]);
+        hexcode+=shortHex[i]+shortHex[i];
+        //console.log(hexcode)
+}
+    return hexcode;
 };
 
 // Do not change the code below.
